@@ -1,0 +1,20 @@
+{
+  "rangeStrategy": "pin",
+  "regexManagers": [
+    {
+      "datasourceTemplate": "docker",
+      "fileMatch": ["^Dockerfile$"],
+      "matchStrings": [
+        "FROM\\s+(?<depName>.*):(?<currentValue>.*)"
+      ]
+    }
+  ],
+  "packageRules": [
+    {
+      "matchDatasources": ["docker"],
+      "pinDigests": true
+    }
+  ],
+  "semanticCommits": "enabled",
+  "semanticCommitType": "build"
+}
