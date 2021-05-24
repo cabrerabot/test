@@ -11,8 +11,7 @@
   ],
   "packageRules": [
     {
-      "matchDatasources": ["docker"],
-      "pinDigests": true
+      "matchDatasources": ["docker"]
     }
   ],
   "semanticCommits": "enabled",
