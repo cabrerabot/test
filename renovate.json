@@ -1,5 +1,4 @@
 {
-  "rangeStrategy": "pin",
   "regexManagers": [
     {
       "datasourceTemplate": "docker",
